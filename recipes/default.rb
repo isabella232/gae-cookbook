@@ -23,6 +23,7 @@ prefix = node["gae"]["prefix_dir"]
 gae_dir = "google_appengine"
 gae_zip = "#{gae_dir}_#{version}.zip"
 install_path = "#{prefix}/#{gae_dir}_#{version}"
+node.default['gae']['install_path'] = install_path
 
 remote_file "#{Chef::Config[:file_cache_path]}/#{gae_zip}" do
   source "#{node["gae"]["url"] % node["gae"]["version"]}"

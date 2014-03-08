@@ -2,7 +2,7 @@ maintainer        "Anler"
 maintainer_email  "anler@floqq.com"
 license           "Apache 2.0"
 description       "Installs Google App Engine"
-version           "1.1.0"
+version           "1.1.1"
 
 recipe "gae", "Installs Google App Engine"
 
