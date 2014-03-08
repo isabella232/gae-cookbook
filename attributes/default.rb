@@ -18,8 +18,8 @@
 # limitations under the License.
 #
 
-default_version = "1.8.0"
+default_version = "1.9.0"
 
 default["gae"]["version"] = default_version
-default["gae"]["url"] = "https://googleappengine.googlecode.com/files/google_appengine_%s.zip"
+default["gae"]["url"] = "https://commondatastorage.googleapis.com/appengine-sdks/featured/google_appengine_%s.zip"
 default["gae"]["prefix_dir"] = "/opt"
