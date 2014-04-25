@@ -1,3 +1,4 @@
+name              "gae"
 maintainer        "Anler"
 maintainer_email  "anler@floqq.com"
 license           "Apache 2.0"
